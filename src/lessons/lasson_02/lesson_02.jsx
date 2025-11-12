@@ -1,7 +1,7 @@
 // import { animal } from "./data";
-import { animal, getPlanteaterStatus} from "./data";
+import { animal, getPlanteaterStatus } from "./data";
 import "./styles.css";
-import Button from "../../components/Button/button";
+import Button from "../../components/Button/Button";
 
 function Lesson_02() {
   console.log(animal);
@@ -15,15 +15,15 @@ function Lesson_02() {
         <p className="card_info">Name: {animal.fullName}</p>
         <p className="card_info">Age: {animal.age}</p>
         <p className="card_info">Color: {animal.color}</p>
-         <p className="card_info">
-          Is Planteater: {getPlanteaterStatus(animal.isPlanteater )}
+        <p className="card_info">
+          Is Planteater: {getPlanteaterStatus(animal.isPlanteater)}
         </p>
         {/* <p className="card_info">
           Is Planteater: {animal.isPlanteater ? "Yes" : "No"}
         </p> */}
-        <Button/>
-        <Button/>
-        <Button/>
+        <Button />
+        <Button />
+        <Button />
       </div>
     </div>
   );

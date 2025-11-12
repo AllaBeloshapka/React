@@ -1,4 +1,8 @@
-.homework_02_wrepper{
-    display: flex;
-    flex: 1;
+.homework_02_wrepper {
+  display: flex;
+  flex: 1;
+  background-color: rgb(0, 48, 32);
+  align-items: center;
+  justify-content: center;
+  gap: 20;
 }
