@@ -11,10 +11,12 @@ function Card() { // начало функционального компоне�
       />
       <h2 className="card_title">Homer Simpson</h2>
       <p className="card_info">
-        Occupation: Safety Inspector at Springfield Nuclear Power Plant
+        Occupation: <p>Safety Inspector at Springfield Nuclear Power Plant
+      </p>
       </p>
       <p className="card_info">
-        Hobbies: Eating donuts, Watching TV, Drinking Duff Beer, Sleeping
+        Hobbies: <p>Eating donuts, Watching TV, Drinking Duff Beer, Sleeping
+      </p>
       </p>
     </div>
   );
