@@ -1,9 +1,14 @@
 import "./styles.css";
+import Card from "../../components/Card/Card";
 
 function Homework_02() {
-    return <div className="homework_02_wrepper">
-        {/* тут пишем д.з. */}
-    </div>;
+  return (
+    <div className="homework_02_wrepper">
+      <Card />
+      <Card />
+      <Card />
+    </div>
+  );
 }
 
-export default Homework_02
+export default Homework_02;

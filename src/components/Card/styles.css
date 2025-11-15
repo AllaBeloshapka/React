@@ -1,0 +1,28 @@
+.card_component{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(119, 148, 94);
+    padding: 40px;
+    border-radius: 4%;
+}
+
+.avatar{
+    width: 150px;
+    height: 200px;
+    
+}
+
+.card_title{
+   font-size: 30px;
+   font-weight: bold;
+   color: rgb(255, 251, 0);
+}
+
+.card_info{
+      font-size: 24px;
+   font-weight: bold;
+   color: rgb(10, 19, 0);
+}
