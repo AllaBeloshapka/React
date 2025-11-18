@@ -4,9 +4,16 @@ import "./loginForm.css";
 import Input from "../Input/Input";
 
 export default function LoginForm() {
+
+    const login = (event) => {
+      event.preventDefault();
+    console.log("Login successfull");
+  };
+
   return (
-    <div className="form">
-      <div className="text">Login Form</div>
+    <form onSubmit={login} className = "form">
+    
+      <p className="text">Login Form</p>
       <Input
         label="Email"
         name="email"
@@ -23,8 +30,12 @@ export default function LoginForm() {
         class_name="input"
         class_name_form="input_form"
       />
-
-      <Button name="Login" type="submit" className="login_button" />
-    </div>
+       
+       {/* <button onClick={login} id="clickme_button" type="button">
+        Click me
+      </button> */}
+      {/* <Button name="Login" type="button" onclick={login}/> */}
+      <Button name="Login" type="submit" />
+    </form>
   );
 }

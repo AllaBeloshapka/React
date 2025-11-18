@@ -4,7 +4,7 @@ export default function Input({label, name, type, placeholder, class_name, class
   return (
     <div className={class_name_form}>
         
-        <label>{label}</label>
+        <label className="input_label">{label}</label>
 
         <input 
         className={class_name} 
