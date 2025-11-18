@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export default function Input({label, name, type, placeholder, class_name, class_name_form}) {
   return (
