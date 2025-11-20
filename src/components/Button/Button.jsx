@@ -1,8 +1,11 @@
-
 import "./styles.css";
 
-function Button () {
-    return <button className="button_component">Sent</button>;
+function Button({ name="Send", type="button", onclick}) {
+  return (
+    <button className= "button_component" type={type} onClick={onclick}>
+      {name}
+    </button>
+  );
 }
 
 export default Button;
