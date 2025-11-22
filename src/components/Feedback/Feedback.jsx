@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+import Button from "../Button/Button"
 import "./styles.css";
 import { useState } from "react";
 

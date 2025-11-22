@@ -1,7 +1,7 @@
 // import { animal } from "./data";
 import { animal, getPlanteaterStatus} from "./data";
 import "./styles.css";
-import Button from "../../components/Button/button";
+import Button from "../../components/Button/Button";
 
 function Lesson_02() {
   console.log(animal);
