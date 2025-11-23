@@ -11,13 +11,13 @@ function App() {
   return (
     <>
       {/* <Lesson_02 /> */}
-      {/* <Lesson_05 /> */}
+      <Lesson_05 />
 
       {/* <Homework_02/> */}
       {/* <Homework_03/> */}
       {/* <Homework_04/> */}
 
-      <Sandwich/>
+      {/* <Sandwich/> */}
       
     </>
   );
