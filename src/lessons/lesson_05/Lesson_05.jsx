@@ -23,14 +23,13 @@ function Lesson_05() {
     "Ketchup",
     "Ice-cream",
   ];
-// Создаю метод, который переберёт и выведет на экран каждую кнопку
+  // Создаю метод, который переберёт и выведет на экран каждую кнопку
   const menuButtons = menuListItems.map((value) => {
     return (
       <div key={v4()} className="button_control">
-       
-{/* Использую компонент-кнопку */}
+        {/* Использую компонент-кнопку */}
         <Button
-// Даю каждой кнопке название из массива
+          // Даю каждой кнопке название из массива
           name={value}
           // Даю HTML-элементу метод для реакции на клик по кнопке
           onClick={() => {
@@ -45,12 +44,10 @@ function Lesson_05() {
 
   return (
     <div className="lesson_05_wrapper">
-
       <div className="menu_wrapper">
         <h1 className="menu">Menu:</h1>
-{/* Место  для кнопки в HTML. Каждую кнопку формирую через метод menuButtons*/}
-          <div className="button_wrapper">{menuButtons}</div>
-      
+        {/* Место  для кнопки в HTML. Каждую кнопку формирую через метод menuButtons*/}
+        <div className="button_wrapper">{menuButtons}</div>
       </div>
 
       <div className="order_wrapper">
